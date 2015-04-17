@@ -63,20 +63,14 @@
 
   <logger name="org.apache.cxf.services" level="error" />
 
-  <!-- Info logging to enable monitoring logging -->
-  <logger name="se.inera.auth" level="info" />
-  <logger name="se.inera.webcert.service.fragasvar.FragaSvarServiceImpl" level="info" />
-  <logger name="se.inera.webcert.service.intyg.IntygServiceImpl" level="info" />
-  <logger name="se.inera.webcert.service.utkast.UtkastServiceImpl" level="info" />
-  <logger name="se.inera.webcert.service.signatur.SignaturServiceImpl" level="info" />
-  <logger name="se.inera.webcert.service.mail.MailNotificationServiceImpl" level="info" />
-  <!-- end monitoring logging -->
-  
   <logger name="se.inera.certificate.modules.fk7263" level="info" />
   
   <logger name="se.inera.certificate.modules.ts_bas" level="info" />
   
   <logger name="se.inera.certificate.modules.ts_diabetes" level="info" />
+
+  <!-- Log service for monitoring and audit information -->
+  <logger name="se.inera.webcert.service.monitoring.MonitoringLogService" level="info" />
 
   <root>
     <level value="error" />
