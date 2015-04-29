@@ -55,7 +55,7 @@
       </layout>
     </encoder>
   </appender>
-  
+
   <logger name="org.springframework" level="error" />
 
   <logger name="org.hibernate" level="error" />
@@ -64,13 +64,15 @@
   <logger name="org.apache.cxf.services" level="error" />
 
   <logger name="se.inera.certificate.modules.fk7263" level="info" />
-  
+
   <logger name="se.inera.certificate.modules.ts_bas" level="info" />
-  
+
   <logger name="se.inera.certificate.modules.ts_diabetes" level="info" />
 
   <!-- Log service for monitoring and audit information -->
   <logger name="se.inera.webcert.service.monitoring.MonitoringLogService" level="info" />
+
+  <logger name="org.springframework.security.saml.log" level="info" />
 
   <root>
     <level value="error" />
