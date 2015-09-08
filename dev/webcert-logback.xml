@@ -9,13 +9,15 @@
     </filter>
     <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
       <layout class="se.inera.webcert.logging.PatternLayoutWithUserContext">
-        <param name="Pattern" value="%date{ISO8601} [%thread] %-5level %logger{10} [%user %session] - %msg%n" />
+        <param name="Pattern"
+          value="%date{ISO8601} [%thread] %-5level %logger{10} [%user %session] - %msg%n" />
       </layout>
     </encoder>
   </appender>
 
   <!--Daily rolling file appender -->
-  <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+  <appender name="FILE"
+    class="ch.qos.logback.core.rolling.RollingFileAppender">
     <filter class="se.inera.certificate.logging.MarkerFilter">
       <markers>Monitoring,HSA</markers>
       <onMatch>DENY</onMatch>
@@ -28,13 +30,15 @@
     </rollingPolicy>
     <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
       <layout class="se.inera.webcert.logging.PatternLayoutWithUserContext">
-        <param name="Pattern" value="%date{ISO8601} [%thread] %-5level %logger{10} [%user %session] - %msg%n" />
+        <param name="Pattern"
+          value="%date{ISO8601} [%thread] %-5level %logger{10} [%user %session] - %msg%n" />
       </layout>
     </encoder>
   </appender>
 
   <!--Daily rolling file appender for logging monitoring events -->
-  <appender name="MONITORING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+  <appender name="MONITORING"
+    class="ch.qos.logback.core.rolling.RollingFileAppender">
     <filter class="se.inera.certificate.logging.MarkerFilter">
       <marker>Monitoring</marker>
       <onMatch>ACCEPT</onMatch>
@@ -51,9 +55,10 @@
       </layout>
     </encoder>
   </appender>
-
+  
   <!--Daily rolling file appender for logging hsa events -->
-  <appender name="HSA" class="ch.qos.logback.core.rolling.RollingFileAppender">
+  <appender name="HSA"
+    class="ch.qos.logback.core.rolling.RollingFileAppender">
     <filter class="se.inera.certificate.logging.MarkerFilter">
       <marker>HSA</marker>
       <onMatch>ACCEPT</onMatch>
@@ -78,25 +83,19 @@
 
   <logger name="org.apache.cxf.services" level="error" />
 
-  <logger name="se.inera.auth" level="info" />
-
-  <logger name="se.inera.webcert" level="debug" />
-
-  <logger name="se.inera.certificate.modules.fk7263" level="debug" />
+  <logger name="se.inera.certificate.modules.fk7263" level="info" />
 
   <logger name="se.inera.certificate.modules.ts_bas" level="info" />
 
   <logger name="se.inera.certificate.modules.ts_diabetes" level="info" />
-
-  <logger name="org.apache.camel" level="info" />
-
-  <logger name="se.inera.webcert.notifications" level="debug" />
 
   <!-- Log service for monitoring and audit information -->
   <logger name="se.inera.webcert.service.monitoring.MonitoringLogService" level="info" />
 
   <!-- Log service for logging JavaScript exceptions from GUI, set to debug or off -->
   <logger name="se.inera.webcert.web.controller.api.JsLogApiController" level="debug" />
+
+  <logger name="org.springframework.security.saml.log" level="info" />
 
   <root>
     <level value="error" />
