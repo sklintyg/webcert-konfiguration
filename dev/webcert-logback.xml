@@ -83,7 +83,7 @@
 
   <logger name="org.apache.cxf.services" level="warn" />
 
-  <logger name="se.inera.certificate" level="info" />
+  <logger name="se.inera.intyg" level="info" />
 
   <logger name="se.inera.intyg.intygstyper.fk7263" level="info" />
 
