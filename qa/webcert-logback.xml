@@ -91,6 +91,13 @@
   <!-- Log service for logging JavaScript exceptions from GUI, set to debug or off -->
   <logger name="se.inera.intyg.webcert.web.web.controller.api.JsLogApiController" level="debug" />
 
+  <logger name="org.springframework.security.saml.log" level="debug" />
+  <logger name="org.springframework.security.saml" level="debug" />
+
+  <!-- Trying to debug ActiveMQ communication -->
+  <logger name="org.apache.activemq.transport.failover.FailoverTransport" level="debug" />
+  <logger name="org.apache.activemq.transport.failover.TransportLogger" level="debug" />
+
   <root>
     <level value="error" />
     <appender-ref ref="STDOUT" />
