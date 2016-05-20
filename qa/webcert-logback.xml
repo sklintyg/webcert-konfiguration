@@ -94,10 +94,6 @@
   <logger name="org.springframework.security.saml.log" level="debug" />
   <logger name="org.springframework.security.saml" level="debug" />
 
-  <!-- Trying to debug ActiveMQ communication -->
-  <logger name="org.apache.activemq.transport.failover.FailoverTransport" level="debug" />
-  <logger name="org.apache.activemq.transport.failover.TransportLogger" level="debug" />
-
   <root>
     <level value="error" />
     <appender-ref ref="STDOUT" />
