@@ -83,7 +83,7 @@
 
   <logger name="org.apache.cxf.services" level="error" />
 
-  <logger name="se.inera" level="error" />
+  <logger name="se.inera" level="warn" />
 
   <!-- Log service for monitoring and audit information -->
   <logger name="se.inera.intyg.webcert.web.service.monitoring.MonitoringLogService" level="info" />
