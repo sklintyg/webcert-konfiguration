@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<md:EntityDescriptor xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" entityID="https://idp2.acctest.sakerhetstjanst.inera.se:443/idp/saml">
+<md:EntityDescriptor xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" entityID="https://idp2.sakerhetstjanst.inera.se:443/idp/saml">
   <md:Extensions>
     <mdattr:EntityAttributes>
       <saml:Attribute Name="urn:oasis:names:tc:SAML:attribute:assurance-certification" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
@@ -12,17 +12,17 @@
       <ds:KeyInfo>
         <ds:X509Data>
           <ds:X509Certificate>
-            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
+            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
           </ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.acctest.sakerhetstjanst.inera.se:443/idp/saml/artifact/SOAP" index="1" isDefault="false"/>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp2.acctest.sakerhetstjanst.inera.se:443/idp/saml/slo/HTTP-POST"/>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp2.acctest.sakerhetstjanst.inera.se:443/idp/saml/slo/HTTP-Redirect"/>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.sakerhetstjanst.inera.se:443/idp/saml/artifact/SOAP" index="1" isDefault="false"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp2.sakerhetstjanst.inera.se:443/idp/saml/slo/HTTP-POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp2.sakerhetstjanst.inera.se:443/idp/saml/slo/HTTP-Redirect"/>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp2.acctest.sakerhetstjanst.inera.se:443/idp/saml/sso/HTTP-Redirect"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp2.sakerhetstjanst.inera.se:443/idp/saml/sso/HTTP-Redirect"/>
     <saml:Attribute Name="http://sambi.se/attributes/1/employeeHsaId" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="employeeHsaId"/>
     <saml:Attribute Name="http://sambi.se/attributes/1/systemRole" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="systemRole"/>
     <saml:Attribute Name="http://sambi.se/attributes/1/commissionName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="assignmentName"/>
@@ -45,13 +45,13 @@
   <md:Organization>
     <md:OrganizationName xml:lang="sv">Säkerhetstjänster</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="sv">Säkerhetstjänster</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="sv">https://idp.acctest.sakerhetstjanst.inera.se:443/idp/saml</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="sv">https://idp.sakerhetstjanst.inera.se:443/idp/saml</md:OrganizationURL>
   </md:Organization>
   <md:ContactPerson xml:lang="sv" contactType="technical">
     <md:Company>CGI</md:Company>
-    <md:GivenName>Anders</md:GivenName>
-    <md:SurName>Andersson</md:SurName>
-    <md:EmailAddress>anders.andersson@example.com</md:EmailAddress>
-    <md:TelephoneNumber>0701234567</md:TelephoneNumber>
+    <md:GivenName>-</md:GivenName>
+    <md:SurName>-</md:SurName>
+    <md:EmailAddress>nationella.sakerhetstjanster@cgi.com</md:EmailAddress>
+    <md:TelephoneNumber>063-152299</md:TelephoneNumber>
   </md:ContactPerson>
 </md:EntityDescriptor>
