@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <md:EntityDescriptor xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" entityID="https://idp2.acctest.sakerhetstjanst.inera.se:443/idp/saml">
   <md:Extensions>
     <mdattr:EntityAttributes>
@@ -43,8 +43,8 @@
     <saml:Attribute Name="urn:sambi:names:attribute:authnMethod" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="authnMethod"/>
   </md:IDPSSODescriptor>
   <md:Organization>
-    <md:OrganizationName xml:lang="sv">S&#xE4;kerhetstj&#xE4;nster</md:OrganizationName>
-    <md:OrganizationDisplayName xml:lang="sv">S&#xE4;kerhetstj&#xE4;nster</md:OrganizationDisplayName>
+    <md:OrganizationName xml:lang="sv">Säkerhetstjänster</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="sv">Säkerhetstjänster</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="sv">https://idp.acctest.sakerhetstjanst.inera.se:443/idp/saml</md:OrganizationURL>
   </md:Organization>
   <md:ContactPerson xml:lang="sv" contactType="technical">
