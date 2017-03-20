@@ -95,8 +95,11 @@
   <!-- Log service for logging JavaScript exceptions from GUI, set to debug or off -->
   <logger name="se.inera.intyg.webcert.web.web.controller.api.JsLogApiController" level="debug" />
 
-  <logger name="org.springframework.security.saml.log" level="info" />
+  <!-- <logger name="org.springframework.security.saml.log" level="info" /> -->
 
+  <logger name="org.springframework.security" level="debug" />
+  <logger name="se.inera.intyg.webcert.web.auth" level="debug" />
+  
   <root>
     <level value="error" />
     <appender-ref ref="STDOUT" />
