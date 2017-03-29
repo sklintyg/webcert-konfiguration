@@ -79,6 +79,7 @@
   <logger name="org.springframework" level="error" />
 
   <logger name="org.hibernate" level="error" />
+
   <logger name="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" level="off" />
 
   <logger name="org.apache.cxf.services" level="info" />
@@ -97,8 +98,9 @@
 
   <!-- <logger name="org.springframework.security.saml.log" level="info" /> -->
 
-  <logger name="org.springframework.security" level="debug" />
-  <logger name="se.inera.intyg.webcert.web.auth" level="debug" />
+  <logger name="org.springframework.security" level="error" />
+
+  <logger name="se.inera.intyg.webcert.web.auth" level="info" />
   
   <root>
     <level value="error" />
@@ -107,4 +109,5 @@
     <appender-ref ref="MONITORING" />
     <appender-ref ref="HSA" />
   </root>
+
 </configuration>
