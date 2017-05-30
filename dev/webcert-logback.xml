@@ -98,7 +98,7 @@
   <logger name="se.inera.intyg.webcert.web.web.controller.api.JsLogApiController" level="debug" />
 
   <logger name="org.springframework.security.saml.log" level="info" />
-  
+  <logger name="net.openhft" level="debug" />
   <logger name="se.inera.intyg.webcert.notificationstub" level="debug" />
 
   <root>
