@@ -98,6 +98,8 @@
   <logger name="se.inera.intyg.webcert.web.web.controller.api.JsLogApiController" level="debug" />
 
   <logger name="org.springframework.security.saml.log" level="info" />
+  
+  <logger name="se.inera.intyg.webcert.notificationstub" level="debug" />
 
   <root>
     <level value="error" />
